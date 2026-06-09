@@ -1,0 +1,19 @@
+.text-type {
+    display: inline-flex;
+    position: relative;
+    white-space: nowrap;
+}
+
+.text-type__content {
+    display: inline-block;
+}
+
+.text-type__cursor {
+    margin-left: 2px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.text-type__cursor--hidden {
+    opacity: 0;
+}
